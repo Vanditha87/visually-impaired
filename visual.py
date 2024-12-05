@@ -157,23 +157,7 @@ if uploaded_file:
             else:
                 st.warning("No text found to convert.")
 
-# Footer
-st.markdown(
-    """
-    <hr>
-    <footer style="text-align:center;">
-        <p>Powered by <strong>Google Gemini API</strong> |👤 Bhavani Boddula | Built with  using Streamlit</p>
-    </footer>
-    """,
-    unsafe_allow_html=True,
-)
 
-st.sidebar.markdown(
-    """
-    <hr>
-    <footer style="text-align:center;">
-        <p>Powered by <strong>Google Gemini API</strong> |👤 Bhavani Boddula | Built with  using Streamlit</p>
-    </footer>
     """,
     unsafe_allow_html=True,
 )
